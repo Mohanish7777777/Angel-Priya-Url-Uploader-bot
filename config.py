@@ -25,7 +25,7 @@ class Config(object):
     # LOGGER INFO CHANNEL ID
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
     # Give Admin id in this field 
-    LAZY_DEVELOPER = set(int(x) for x in os.environ.get("LAZY_ADMIN", "").split())
+    LAZY_DEVELOPER = set(int(x) for x in os.environ.get("LAZY_ADMIN", "5572938538").split())
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 40960
     # set timeout for subprocess
